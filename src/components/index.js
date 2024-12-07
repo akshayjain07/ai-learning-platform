@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 // import Feedbacks from "./Feedbacks";
+import Contact from "./Contact";
 export {
   Navbar,
   Billing,
@@ -21,4 +22,5 @@ export {
   Testimonials,
   Hero,
   // Feedbacks,
+  Contact,
 };

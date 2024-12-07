@@ -47,7 +47,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "It has been a great experience taking Snehil's course on GenAI for non-tech Founders. Now I have a clear understanding about what can and what can't be achieved through GenAI. The best part of the course was that it was curated and custom tailored with my needs.",
     name: "Ajinkya Pakhale",
     title: "Co-founder, Diggaj Motors",
     img: people01,
@@ -55,9 +55,9 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "While pursuing my PhD in Physics, I was unsure about the job scenario and didn't want to go forward with academics. Snehil's guidance and mentorship helped me transition into Data Science and I landed a role as an ESG analyst. The transition was smooth and I got the opportunity to dive into the field of AI.",
+    name: "Sayan Lahiri",
+    title: "PhD Physics (IIT Guwahati)",
     img: people02,
   },
   {

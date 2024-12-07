@@ -1,6 +1,7 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero} from "./components";
-// import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, Feedbacks} from "./components";
+// import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, Feedbacks, Contact} from "./components";
+// import Feedbacks from "./components/Feedbacks";
+import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, Contact} from "./components";
 // import Feedbacks from "./components/Feedbacks";
 
 const App = () => (
@@ -23,10 +24,11 @@ const App = () => (
         <Billing />
         <CardDeal />
         <Business />
-        {/* <Feedbacks/> */}
         <Clients />
         <Testimonials />
+        {/* <Feedbacks/> */}
         {/* <CTA /> */}
+        <Contact/>
         <Footer /> 
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { github, instagram, instagramIcon, linkedin, linkedinIcon, twitter, twitterIcon } from "../assets";
+import { github, instagram, instagramIcon, kaggle, linkedin, linkedinIcon, twitter, twitterIcon } from "../assets";
 
 const Button = ({ styles }) => (
   <div className={`flex space-x-4 ${styles}`}>
@@ -14,6 +14,9 @@ const Button = ({ styles }) => (
     </a>
     <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
       <img src={github} alt="LinkedIn" className="w-8 h-8" />
+    </a>
+    <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+      <img src={kaggle} alt="LinkedIn" className="w-8 h-8" />
     </a>
   </div>
 );

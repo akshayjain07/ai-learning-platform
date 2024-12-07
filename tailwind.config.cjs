@@ -13,6 +13,15 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      animation: {
+        marquee: 'marquee 20s linear infinite', // Define animation for marquee
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(100%)' }, // Start from the right
+          '100%': { transform: 'translateX(-100%)' }, // Move to the left
+        },
+      },
     },
     screens: {
       xs: "480px",
@@ -25,3 +34,33 @@ module.exports = {
   },
   plugins: [],
 };
+
+
+
+// /** @type {import('tailwindcss').Config} */
+// module.exports = {
+//   content: ["./index.html", "./src/**/*.{js,jsx}"],
+//   mode: "jit",
+//   theme: {
+//     extend: {
+//       colors: {
+//         primary: "#00040f",
+//         secondary: "#00f6ff",
+//         dimWhite: "rgba(255, 255, 255, 0.7)",
+//         dimBlue: "rgba(9, 151, 124, 0.1)",
+//       },
+//       fontFamily: {
+//         poppins: ["Poppins", "sans-serif"],
+//       },
+//     },
+//     screens: {
+//       xs: "480px",
+//       ss: "620px",
+//       sm: "768px",
+//       md: "1060px",
+//       lg: "1200px",
+//       xl: "1700px",
+//     },
+//   },
+//   plugins: [],
+// };

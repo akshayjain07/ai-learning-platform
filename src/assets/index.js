@@ -30,6 +30,7 @@ import twitterIcon from "./twitter.png";
 import instagramIcon from "./insta.png";
 import linkedinIcon from "./linkedIn.png";
 import github from "./github1.png";
+import kaggle from "./kaggle.png";
 
 
 export {
@@ -65,4 +66,5 @@ export {
   instagramIcon,
   linkedinIcon,
   github,
+  kaggle,
 };
