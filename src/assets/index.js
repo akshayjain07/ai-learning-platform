@@ -31,7 +31,11 @@ import instagramIcon from "./insta.png";
 import linkedinIcon from "./linkedIn.png";
 import github from "./github1.png";
 import kaggle from "./kaggle.png";
-
+import cv_course from "./computer_vision_course.png";
+import ai_course from "./ai_course.png";
+import dl_course from "./deep_learning.png";
+import gai_course from "./generative_ai_course.png";
+import py_course from "./python_course.png";
 
 export {
   airbnb,
@@ -67,4 +71,9 @@ export {
   linkedinIcon,
   github,
   kaggle,
+  cv_course,
+  ai_course,
+  dl_course, 
+  gai_course, 
+  py_course,
 };

@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, akshay  } from "../assets";
 
 export const navLinks = [
   {
@@ -63,7 +63,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "It has been a great experience taking Snehil's course on GenAI for non-tech Founders. Now I have a clear understanding about what can and what can't be achieved through GenAI. The best part of the course was that it was curated and custom tailored with my needs.",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
     img: people03,
@@ -197,7 +197,7 @@ export const clients = [
 ];
 
 
-const testimonials = [
+export const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Akshay proved me wrong.",
@@ -222,4 +222,84 @@ const testimonials = [
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
+];
+
+
+// export const cardData = [
+//   {
+//     id: 1,
+//     title: "Introduction to Python for Machine Learning",
+//     subheader: "Beginner Friendly",
+//     image: "../assets/akshay.png", // Adjust the path as needed
+//     description: "Start your journey into Python and ML with hands-on learning.",
+//   },
+//   {
+//     id: 2,
+//     title: "Introduction to Deep Learning",
+//     subheader: "Learn the Basics of DL",
+//     image: "../assets/akshay.png", // Adjust the path as needed
+//     description: "Master foundational concepts of Deep Learning and build your first neural networks.",
+//   },
+//   {
+//     id: 3,
+//     title: "Computer Vision",
+//     subheader: "Intermediate Level",
+//     image: "../assets/akshay.png", // Adjust the path as needed
+//     description: "Explore AI techniques for teaching machines to see and interpret images.",
+//   },
+//   {
+//     id: 4,
+//     title: "Building AI Projects and Portfolio",
+//     subheader: "Career Oriented",
+//     image: "../assets/akshay.png", // Adjust the path as needed
+//     description: "Create impactful AI projects and strengthen your online portfolio.",
+//   },
+//   {
+//     id: 5,
+//     title: "Generative AI for Beginners",
+//     subheader: "Begin Your GenAI Journey",
+//     image: "../assets/akshay.png", // Adjust the path as needed
+//     description: "Learn to build generative AI solutions using advanced models.",
+//   },
+//   {
+//     id: 6,
+//     title: "Generative AI for Non-Tech Founders",
+//     subheader: "AI for Business Use Cases",
+//     image: "../assets/akshay.png", // Adjust the path as needed
+//     description: "Understand generative AI and how it can drive your business innovation.",
+//   },
+//   {
+//     id: 7,
+//     title: "AI Ethics and Responsible AI",
+//     subheader: "Stay Ethical in AI",
+//     image: "../assets/akshay.png", // Adjust the path as needed
+//     description: "Explore the ethical challenges and responsibilities in AI development.",
+//   },
+//   {
+//     id: 8,
+//     title: "Advanced AI Techniques",
+//     subheader: "Expert Level",
+//     image: "../assets/akshay.png", // Adjust the path as needed
+//     description: "Delve into advanced AI topics and cutting-edge research.",
+//   },
+//   {
+//     id: 9,
+//     title: "Natural Language Processing",
+//     subheader: "AI and Text Analysis",
+//     image: "../assets/akshay.png", // Adjust the path as needed
+//     description: "Learn to process and analyze text data using AI techniques.",
+//   },
+// ];
+
+
+export const cardData = [
+  { id: 1, title: "Card 1", subheader: "Subheader 1", image: akshay, description: "Description for card 1." },
+  { id: 2, title: "Card 2", subheader: "Subheader 2", image: akshay, description: "Description for card 2." },
+  { id: 3, title: "Card 3", subheader: "Subheader 3", image: akshay, description: "Description for card 3." },
+  { id: 4, title: "Card 4", subheader: "Subheader 4", image: akshay, description: "Description for card 4." },
+  { id: 5, title: "Card 5", subheader: "Subheader 5", image: akshay, description: "Description for card 5." },
+  { id: 6, title: "Card 6", subheader: "Subheader 6", image: akshay, description: "Description for card 6." },
+  { id: 7, title: "Card 7", subheader: "Subheader 7", image: akshay, description: "Description for card 7." },
+  { id: 8, title: "Card 8", subheader: "Subheader 8", image: akshay, description: "Description for card 8." },
+  { id: 9, title: "Card 9", subheader: "Subheader 9", image: akshay, description: "Description for card 9." },
 ];
